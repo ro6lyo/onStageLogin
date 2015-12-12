@@ -140,10 +140,10 @@
                                 </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IAO-5b-MnK">
-                                <rect key="frame" x="162" y="303" width="276" height="30"/>
+                                <rect key="frame" x="156" y="303" width="282" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="gWD-jj-Ky0"/>
-                                    <constraint firstAttribute="width" constant="276" id="kq4-1y-dfh"/>
+                                    <constraint firstAttribute="width" constant="282" id="kq4-1y-dfh"/>
                                 </constraints>
                                 <state key="normal" title="Forget something? Reset your password.">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -198,7 +198,7 @@
                             <constraint firstItem="dgX-5D-OHQ" firstAttribute="centerX" secondItem="Mil-lI-5IK" secondAttribute="centerX" constant="-18.5" id="5ds-NX-zDB"/>
                             <constraint firstItem="J7m-5f-Xjb" firstAttribute="top" secondItem="PAZ-lg-932" secondAttribute="bottom" constant="3" id="9h8-Ab-OmG"/>
                             <constraint firstItem="J7m-5f-Xjb" firstAttribute="leading" secondItem="Mil-lI-5IK" secondAttribute="leadingMargin" id="BEW-t1-5pe"/>
-                            <constraint firstItem="IAO-5b-MnK" firstAttribute="centerX" secondItem="Mil-lI-5IK" secondAttribute="centerX" id="EDX-EH-orM"/>
+                            <constraint firstItem="IAO-5b-MnK" firstAttribute="centerX" secondItem="Mil-lI-5IK" secondAttribute="centerX" constant="-3" id="EDX-EH-orM"/>
                             <constraint firstItem="PAZ-lg-932" firstAttribute="top" secondItem="8Ha-IO-9Rp" secondAttribute="bottom" constant="40" id="ICE-Yp-LQ0"/>
                             <constraint firstAttribute="trailingMargin" secondItem="VAp-SG-bi3" secondAttribute="trailing" id="KA3-Iq-nTl"/>
                             <constraint firstItem="Unf-Vf-X71" firstAttribute="leading" secondItem="Mil-lI-5IK" secondAttribute="leadingMargin" id="Lgs-co-xWB"/>
