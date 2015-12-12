@@ -22,6 +22,10 @@ class LoginViewController: UIViewController,UITextFieldDelegate {
         txtUsername.layer.borderWidth = 1.5
         txtUsername.layer.borderColor = UIColor.grayColor().CGColor
         
+        txtPassword.layer.cornerRadius = 5.0
+        txtPassword.layer.borderWidth = 1.5
+        txtPassword.layer.borderColor = UIColor.grayColor().CGColor
+        
         singInButton.layer.cornerRadius = 5.0
         singInButton.layer.borderWidth = 1.5
         singInButton.layer.borderColor = UIColor.grayColor().CGColor
