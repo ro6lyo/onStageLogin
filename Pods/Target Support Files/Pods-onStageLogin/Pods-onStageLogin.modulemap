@@ -1,0 +1,6 @@
+framework module Pods_onStageLogin {
+  umbrella header "Pods-onStageLogin-umbrella.h"
+
+  export *
+  module * { export * }
+}

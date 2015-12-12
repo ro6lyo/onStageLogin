@@ -11,13 +11,19 @@ import UIKit
 class ViewController: UIViewController {
     
     
+    @IBOutlet weak var logOutButton: UIButton!
     @IBOutlet var usernameLabel : UILabel!
-    @IBOutlet weak var userLocation: UILabel!
-    @IBOutlet weak var userId: UILabel!
+   
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+    
+        logOutButton.layer.cornerRadius = 5.0
+        logOutButton.layer.borderWidth = 1.5
+        logOutButton.layer.borderColor = UIColor.grayColor().CGColor
+    
+    
     }
     
     override func viewDidAppear(animated: Bool) {
@@ -29,9 +35,7 @@ class ViewController: UIViewController {
             self.performSegueWithIdentifier("goto_login", sender: self)
         } else {
             self.usernameLabel.text = prefs.valueForKey("USERNAME") as? String
-            self.userId.text = prefs.valueForKey("ID") as? String
-            self.userLocation.text = prefs.valueForKey("COUNTRY") as? String
-            
+                       
         }
     }
     
